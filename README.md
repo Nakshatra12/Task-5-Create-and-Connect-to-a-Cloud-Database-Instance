@@ -2,7 +2,7 @@
 
 To understand how Cloud Databases work by creating a managed SQL database instance (like MySQL or PostgreSQL) in the cloud, connecting to it, and performing basic operations.
 
-### I created a MySQL database instance using Google Cloud SQL to explore Database-as-a-Service. After setting up public access, I connected using MySQL Workbench and executed SQL queries to create and manage data in a table. This task helped me understand how cloud databases are deployed, secured, and accessed remotely, which is essential for building scalable and reliable cloud applications.
+### I created a MySQL database instance using Google Cloud SQL to explore Database-as-a-Service. After setting up public access, I connected using Cloud Shell and executed SQL queries to create and manage data in a table. This task helped me understand how cloud databases are deployed, secured, and accessed remotely, which is essential for building scalable and reliable cloud applications.
 
 
 ## Concept Overview
