@@ -18,11 +18,11 @@ CRUD Operations:	Create, Read, Update, and Delete — the four basic operations 
 
 ## Tools Used
 
-Google Cloud Console  	To create and manage the Cloud SQL instance.
+Google Cloud Console:  	To create and manage the Cloud SQL instance.
 
-MySQL                  	The database engine used for this task.
+MySQL:  The database engine used for this task.
 
-Cloud Shell            	To connect and run SQL commands.
+Cloud Shell:  To connect and run SQL commands.
 
 
 ## Step-by-Step Implementation
@@ -101,13 +101,13 @@ USE intern_demo;
 
 CREATE TABLE students (
   
-  id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
   
-  name VARCHAR(50),
+    name VARCHAR(50),
   
-  domain VARCHAR(30),
+    domain VARCHAR(30),
   
-  score INT
+    score INT
 
 );
 
