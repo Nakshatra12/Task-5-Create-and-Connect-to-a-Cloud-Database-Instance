@@ -1,0 +1,32 @@
+-- 1️⃣ Create a new database
+CREATE DATABASE intern_demo;
+
+-- 2️⃣ Switch to the created database
+USE intern_demo;
+
+-- 3️⃣ Create a table
+CREATE TABLE students (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50),
+  domain VARCHAR(30),
+  score INT
+);
+
+-- 4️⃣ Insert records
+INSERT INTO students (name, domain, score)
+VALUES 
+('Aarav', 'Cloud', 95),
+('Diya', 'DevOps', 89),
+('Kiran', 'AI', 92);
+
+-- 5️⃣ Read / View records
+SELECT * FROM students;
+
+-- 6️⃣ Update a record
+UPDATE students
+SET score = 98
+WHERE name = 'Diya';
+
+-- 7️⃣ Delete a record
+DELETE FROM students
+WHERE name = 'Kiran';
