@@ -8,15 +8,22 @@ To understand how Cloud Databases work by creating a managed SQL database instan
 ## Concept Overview
 
 ### Concept	Description
+
 Cloud SQL:        A fully managed relational database service provided by Google Cloud for MySQL, PostgreSQL, and SQL Server.
+
 DBaaS:          	Database-as-a-Service — where the cloud provider manages maintenance, scaling, and security of databases.
+
 CRUD Operations:	Create, Read, Update, and Delete — the four basic operations in a database.
+
 
 ## Tools Used
 
 Google Cloud Console  	To create and manage the Cloud SQL instance.
+
 MySQL                  	The database engine used for this task.
+
 Cloud Shell            	To connect and run SQL commands.
+
 
 ## Step-by-Step Implementation
 
@@ -93,19 +100,29 @@ CREATE DATABASE intern_demo;
 USE intern_demo;
 
 CREATE TABLE students (
+  
   id INT AUTO_INCREMENT PRIMARY KEY,
+  
   name VARCHAR(50),
+  
   domain VARCHAR(30),
+  
   score INT
+
 );
 
 ### 6️⃣ Step 6 – Insert and Retrieve Data
 
 INSERT INTO students (name, domain, score)
+
 VALUES 
+
 ('Aarav', 'Cloud', 95),
+
 ('Diya', 'DevOps', 89),
+
 ('Rohan', 'AI', 92);
+
 
 SELECT * FROM students;
 
@@ -123,18 +140,31 @@ WHERE name = 'Diya';
 ### Deliverable	Description
 
 ✅ Screenshot 1	Cloud SQL Selection
+
 ✅ Screenshot 2	Click on Create Instance & fill the details
+
 ✅ Screenshot 3	Choose MySQL Database
+
 ✅ Screenshot 4	Instance Created Successfully
+
 ✅ Screenshot 5	Authorized Network Added Successfully
+
 ✅ Screenshot 6 Connect via Cloud Shell
+
 ✅ Screenshot 7 Create Database & Table
+
 ✅ Screenshot 8 Insert & Retrieve Data
+
 ✅ Screenshot 9 Update Data
+
 ✅ Screenshot 10 Delete 
+
 ✅ Screenshot 11 Stop Instance to prevent ongoing usage & billing
+
 ✅ Screenshot 12 Delete Instance
+
 ✅ SQL File	   All SQL commands used
+
 
 ## Key Learning Outcomes
 
