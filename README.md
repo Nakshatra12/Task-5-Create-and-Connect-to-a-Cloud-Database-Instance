@@ -14,7 +14,6 @@ CRUD Operations:	Create, Read, Update, and Delete — the four basic operations 
 
 ## Tools Used
 
-### Tool	                ### Purpose
 Google Cloud Console  	To create and manage the Cloud SQL instance.
 MySQL                  	The database engine used for this task.
 Cloud Shell            	To connect and run SQL commands.
