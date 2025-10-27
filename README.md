@@ -101,13 +101,13 @@ USE intern_demo;
 
 CREATE TABLE students (
   
-    id INT AUTO_INCREMENT PRIMARY KEY,
+  id INT AUTO_INCREMENT PRIMARY KEY,
   
-    name VARCHAR(50),
+  name VARCHAR(50),
   
-    domain VARCHAR(30),
+  domain VARCHAR(30),
   
-    score INT
+  score INT
 
 );
 
